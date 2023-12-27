@@ -1,6 +1,6 @@
 <?php
 //la api de meta wsp caduca cada 24 horas ojo
-
+// EAANKwRZBP0eMBOZCNXewgjaAE4oLlcHzGRMF16Y2CwmOpzYHoY64OYw63NdcEtUWdkUYxjbYkA3ZBNFWoPs1TUlz3D3ZBOJfcqpyIUa970GRSEO6BaDhZCqNNPsKESlJYMELJlUdQZAS1WC4j0UG5LQcqZBA4pe9wh1ZAbZA9R8EyD1bBCqtQuzj8Dpot7Umni6Kj6W13aZB7BvHGE2i8y96wZD
     const TOKEN_ANDERCODE = "CRISTIANCODEMETAAPI";
     const WEBHOOK_URL = "https://circulodeenfermeros.com/webhook.php";
 
@@ -218,7 +218,7 @@
         $options = [
             'http' => [
                 'method' => 'POST',
-                'header' => "Content-type: application/json\r\nAuthorization: Bearer EAANKwRZBP0eMBOZCNXewgjaAE4oLlcHzGRMF16Y2CwmOpzYHoY64OYw63NdcEtUWdkUYxjbYkA3ZBNFWoPs1TUlz3D3ZBOJfcqpyIUa970GRSEO6BaDhZCqNNPsKESlJYMELJlUdQZAS1WC4j0UG5LQcqZBA4pe9wh1ZAbZA9R8EyD1bBCqtQuzj8Dpot7Umni6Kj6W13aZB7BvHGE2i8y96wZD\r\n",
+                'header' => "Content-type: application/json\r\nAuthorization: Bearer EAANaKwRZBPQQEASDFMBOZCNXewgjaAE4oLlcHzGRMF16Y2CwmOpzYHoY64OYw63NdcEtUWdkUYxjbYkA3ZBNFWoPs1TUlz3D3ZBOJfcqpyIUa970GRSEO6BaDhZCqNNPsKESlJYMELJlUdQZAS1WC4j0UG5LQcqZBA4pe9wh1ZAbZA9R8EyD1bBCqtQuzj8Dpot7Umni6Kj6W13aZB7BvHGE2i8y96wZD\r\n",
                 'content' => $data,
                 'ignore_errors' => true
             ]
